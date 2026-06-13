@@ -1,0 +1,12 @@
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Local cache/system folders
+.gemini/
+3d-scroll-website-skill-pack/
