@@ -14,7 +14,7 @@ const GAMES = [
     desc: 'Explore Peloponnesian War torn Greece. A mercenary of Spartan blood confronts the secretive Cult of Kosmos.',
     logo: 'assests/Images/logos/Ac_9_odyssey.png',
     charImage: 'assests/Images/characters_images/Ac_odessay/Assassins-Creed-PNG-Clipart.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(212, 160, 23, 0.45))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(212, 160, 23, 0.2))'
   },
   {
     id: 'origins', seq: '02',
@@ -25,7 +25,7 @@ const GAMES = [
     desc: 'Unveil the origin story of the Brotherhood. Bayek hunts the Order of the Ancients across Ptolemaic Egypt.',
     logo: 'assests/Images/logos/AC_8_gold_Logo.png',
     charImage: 'assests/Images/characters_images/Ac_origins/Bayek_Of_Siva_1.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(184, 96, 0, 0.4))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(184, 96, 0, 0.18))'
   },
   {
     id: 'mirage', seq: '03',
@@ -36,7 +36,7 @@ const GAMES = [
     desc: 'In golden age Baghdad, street thief Basim discovers his destiny with the Hidden Ones.',
     logo: 'assests/Images/logos/Ac_11.1_gold_Logo.png',
     charImage: 'assests/Images/characters_images/Ac11_mirage/wich-basim-.webp',
-    glowFilter: 'drop-shadow(0 0 25px rgba(232, 160, 48, 0.35))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(232, 160, 48, 0.15))'
   },
   {
     id: 'valhalla', seq: '04',
@@ -47,7 +47,7 @@ const GAMES = [
     desc: 'A Viking raider leads their clan to the fractured kingdoms of England, colliding with the Hidden Ones.',
     logo: 'assests/Images/logos/AC_10_gold_Logo.png',
     charImage: 'assests/Images/characters_images/AC10_Valhalla/assassin_s_creed_valhalla_evior.png',
-    glowFilter: 'drop-shadow(0 0 30px rgba(80, 128, 192, 0.4))'
+    glowFilter: 'drop-shadow(0 0 20px rgba(0, 180, 140, 0.3))'
   },
   {
     id: 'ac1', seq: '05',
@@ -58,7 +58,7 @@ const GAMES = [
     desc: 'Disgraced Master Assassin Altaïr hunts nine Templar targets during the Third Crusade.',
     logo: 'assests/Images/logos/Ac_1.png',
     charImage: 'assests/Images/characters_images/Ac1_Character/Altair1.png',
-    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.8)) drop-shadow(0 0 10px rgba(200, 208, 224, 0.15))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 8px rgba(200, 208, 224, 0.1))'
   },
   {
     id: 'ac2', seq: '06',
