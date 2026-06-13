@@ -13,7 +13,8 @@ const GAMES = [
     assassin: 'Kassandra', location: 'Ancient Greece',
     desc: 'Explore Peloponnesian War torn Greece. A mercenary of Spartan blood confronts the secretive Cult of Kosmos.',
     logo: 'assests/Images/logos/Ac_9_odyssey.png',
-    charImage: 'assests/Images/characters_images/Ac_odessay/Assassins-Creed-PNG-Clipart.png'
+    charImage: 'assests/Images/characters_images/Ac_odessay/Assassins-Creed-PNG-Clipart.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(212, 160, 23, 0.45))'
   },
   {
     id: 'origins', seq: '02',
@@ -23,7 +24,8 @@ const GAMES = [
     assassin: 'Bayek of Siwa', location: 'Ancient Egypt',
     desc: 'Unveil the origin story of the Brotherhood. Bayek hunts the Order of the Ancients across Ptolemaic Egypt.',
     logo: 'assests/Images/logos/AC_8_gold_Logo.png',
-    charImage: 'assests/Images/characters_images/Ac_origins/Bayek_Of_Siva_1.png'
+    charImage: 'assests/Images/characters_images/Ac_origins/Bayek_Of_Siva_1.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(184, 96, 0, 0.4))'
   },
   {
     id: 'mirage', seq: '03',
@@ -33,7 +35,8 @@ const GAMES = [
     assassin: 'Basim Ibn Ishaq', location: 'Baghdad',
     desc: 'In golden age Baghdad, street thief Basim discovers his destiny with the Hidden Ones.',
     logo: 'assests/Images/logos/Ac_11.1_gold_Logo.png',
-    charImage: 'assests/Images/characters_images/Ac11_mirage/wich-basim-.webp'
+    charImage: 'assests/Images/characters_images/Ac11_mirage/wich-basim-.webp',
+    glowFilter: 'drop-shadow(0 0 25px rgba(232, 160, 48, 0.35))'
   },
   {
     id: 'valhalla', seq: '04',
@@ -43,7 +46,8 @@ const GAMES = [
     assassin: 'Eivor Wolf-Kissed', location: 'England & Norway',
     desc: 'A Viking raider leads their clan to the fractured kingdoms of England, colliding with the Hidden Ones.',
     logo: 'assests/Images/logos/AC_10_gold_Logo.png',
-    charImage: 'assests/Images/characters_images/AC10_Valhalla/assassin_s_creed_valhalla_evior.png'
+    charImage: 'assests/Images/characters_images/AC10_Valhalla/assassin_s_creed_valhalla_evior.png',
+    glowFilter: 'drop-shadow(0 0 30px rgba(80, 128, 192, 0.4))'
   },
   {
     id: 'ac1', seq: '05',
@@ -53,7 +57,8 @@ const GAMES = [
     assassin: "Altaïr Ibn-La'Ahad", location: 'Holy Land',
     desc: 'Disgraced Master Assassin Altaïr hunts nine Templar targets during the Third Crusade.',
     logo: 'assests/Images/logos/Ac_1.png',
-    charImage: 'assests/Images/characters_images/Ac1_Character/Altair1.png'
+    charImage: 'assests/Images/characters_images/Ac1_Character/Altair1.png',
+    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.8)) drop-shadow(0 0 10px rgba(200, 208, 224, 0.15))'
   },
   {
     id: 'ac2', seq: '06',
@@ -63,7 +68,8 @@ const GAMES = [
     assassin: 'Ezio Auditore', location: 'Florence & Venice',
     desc: 'A nobleman’s son witnesses his family betrayed. Ezio Auditore transforms grief into purpose.',
     logo: 'assests/Images/logos/Ac_2.png',
-    charImage: 'assests/Images/characters_images/Ac2/Ezio-Auditore_Ac_Brotherhood.png'
+    charImage: 'assests/Images/characters_images/Ac2/Ezio-Auditore_Ac_Brotherhood.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(64, 128, 208, 0.45))'
   },
   {
     id: 'brotherhood', seq: '07',
@@ -73,7 +79,8 @@ const GAMES = [
     assassin: 'Ezio Auditore', location: 'Rome',
     desc: 'Ezio rebuilds the Brotherhood from its ruins to destroy Borgia Templar power in Rome.',
     logo: 'assests/Images/logos/Ac_2.png',
-    charImage: 'assests/Images/characters_images/Ac2/AC_2.png'
+    charImage: 'assests/Images/characters_images/Ac2/AC_2.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(204, 48, 16, 0.45))'
   },
   {
     id: 'revelations', seq: '08',
@@ -83,7 +90,8 @@ const GAMES = [
     assassin: 'Ezio Auditore', location: 'Constantinople',
     desc: 'An aging Ezio journeys to Constantinople to unlock secrets left by Altaïr.',
     logo: 'assests/Images/logos/Ac_3.1_gold_Logo.png',
-    charImage: 'assests/Images/characters_images/Ac2/Ezio-Auditore_Ac_Revelations.png'
+    charImage: 'assests/Images/characters_images/Ac2/Ezio-Auditore_Ac_Revelations.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(224, 96, 32, 0.4))'
   },
   {
     id: 'shadows', seq: '09',
@@ -93,7 +101,8 @@ const GAMES = [
     assassin: 'Naoe & Yasuke', location: 'Feudal Japan',
     desc: 'Feudal Japan burns in chaos. A shinobi and a legendary samurai unite to vanquish the shadows.',
     logo: 'assests/Images/logos/AC15_Aniversary.avif',
-    charImage: 'assests/Images/characters_images/AC_shadows/AC_Shadows_Naoe.png'
+    charImage: 'assests/Images/characters_images/AC_shadows/AC_Shadows_Naoe.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(176, 48, 48, 0.45))'
   },
   {
     id: 'blackflag', seq: '10',
@@ -103,7 +112,8 @@ const GAMES = [
     assassin: 'Edward Kenway', location: 'Caribbean Sea',
     desc: 'Welsh pirate Edward Kenway stumbles into the Assassin-Templar war while chasing Caribbean fortune.',
     logo: 'assests/Images/logos/Ac_4_BlackFlag1.png',
-    charImage: 'assests/Images/characters_images/Ac4_BlackFlag/Edward_kenway_3.png'
+    charImage: 'assests/Images/characters_images/Ac4_BlackFlag/Edward_kenway_3.png',
+    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.75)) drop-shadow(0 0 15px rgba(32, 128, 96, 0.22))'
   },
   {
     id: 'rogue', seq: '11',
@@ -113,7 +123,8 @@ const GAMES = [
     assassin: 'Shay Patrick Cormac', location: 'North Atlantic',
     desc: 'Shay Cormac turns his blade against his former Brotherhood to become the most feared Assassin hunter.',
     logo: 'assests/Images/logos/AC_5_rogue.png',
-    charImage: 'assests/Images/characters_images/AC5_Rouge/assassin_s_creed_rogue_render_cut_by_outlawninja_d7uh41g-pre.png'
+    charImage: 'assests/Images/characters_images/AC5_Rouge/assassin_s_creed_rogue_render_cut_by_outlawninja_d7uh41g-pre.png',
+    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.85)) drop-shadow(0 0 10px rgba(144, 154, 170, 0.12))'
   },
   {
     id: 'ac3', seq: '12',
@@ -123,7 +134,8 @@ const GAMES = [
     assassin: 'Connor Kenway', location: 'Colonial America',
     desc: 'Connor fights to protect his people’s lands during the fires of the American Revolution.',
     logo: 'assests/Images/logos/AC_3_America.png',
-    charImage: 'assests/Images/characters_images/Ac3/Assassins-Creed_3_Cornor.png'
+    charImage: 'assests/Images/characters_images/Ac3/Assassins-Creed_3_Cornor.png',
+    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.75)) drop-shadow(0 0 15px rgba(48, 96, 160, 0.18))'
   },
   {
     id: 'unity', seq: '13',
@@ -133,7 +145,8 @@ const GAMES = [
     assassin: 'Arno Dorian', location: 'Revolutionary Paris',
     desc: 'Paris bleeds. Arno Dorian joins the Brotherhood to uncover the true conspirators.',
     logo: 'assests/Images/logos/AC_6_gold_Logo.png',
-    charImage: 'assests/Images/characters_images/Ac6_Unity/Arno.png'
+    charImage: 'assests/Images/characters_images/Ac6_Unity/Arno.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(128, 80, 176, 0.4))'
   },
   {
     id: 'syndicate', seq: '14',
@@ -143,7 +156,8 @@ const GAMES = [
     assassin: 'Jacob & Evie Frye', location: 'Victorian London',
     desc: 'Jacob and Evie Frye build a criminal gang to liberate London from Templar oppression.',
     logo: 'assests/Images/logos/AC_7_gold_Logo.png',
-    charImage: 'assests/Images/characters_images/Ac_Syndicate/male_chrac.png'
+    charImage: 'assests/Images/characters_images/Ac_Syndicate/male_chrac.png',
+    glowFilter: 'drop-shadow(0 0 25px rgba(160, 80, 32, 0.4))'
   }
 ];
 
@@ -197,13 +211,8 @@ function transitionChapter(idx) {
           // Fallback if there is no character image
           charImgEl.src = game.charImage || game.logo || 'assests/Images/logos/AC15_Aniversary.avif';
           
-          // Disable colored glow for games with white/grey clothes (Altair, Black Flag, Rogue, AC3)
-          const noGlowGames = ['ac1', 'blackflag', 'rogue', 'ac3'];
-          if (noGlowGames.includes(game.id)) {
-            charImgEl.style.filter = 'drop-shadow(0 0 25px rgba(0, 0, 0, 0.75))';
-          } else {
-            charImgEl.style.filter = `drop-shadow(0 0 30px ${game.hex}55)`;
-          }
+          // Apply individual custom glow filter
+          charImgEl.style.filter = game.glowFilter;
         }
 
         if (leftLogoEl) {
@@ -253,13 +262,7 @@ function transitionChapter(idx) {
       charImgEl.src = game.charImage || game.logo || 'assests/Images/logos/AC15_Aniversary.avif';
       charImgEl.classList.remove('opacity-0');
       charImgEl.style.opacity = window.innerWidth < 768 ? '0.15' : '0.95';
-      
-      const noGlowGames = ['ac1', 'blackflag', 'rogue', 'ac3'];
-      if (noGlowGames.includes(game.id)) {
-        charImgEl.style.filter = 'drop-shadow(0 0 25px rgba(0, 0, 0, 0.75))';
-      } else {
-        charImgEl.style.filter = `drop-shadow(0 0 30px ${game.hex}55)`;
-      }
+      charImgEl.style.filter = game.glowFilter;
     }
     if (leftLogoEl) {
       leftLogoEl.src = game.logo || 'assests/Images/logos/AC15_Aniversary.avif';
