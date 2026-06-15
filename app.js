@@ -42,7 +42,7 @@ const GAMES = [
     id: 'valhalla', seq: '04',
     subtitle: "ASSASSIN'S CREED", title: 'VALHALLA',
     year: '873 CE', era: 'Viking Age',
-    color: 0x5080c0, hex: '#5080c0',
+    color: 0x00b48c, hex: '#00b48c',
     assassin: 'Eivor Wolf-Kissed', location: 'England & Norway',
     desc: 'A Viking raider leads their clan to the fractured kingdoms of England, colliding with the Hidden Ones.',
     logo: 'assests/Images/logos/AC_10_gold_Logo.png',
@@ -69,7 +69,7 @@ const GAMES = [
     desc: 'A nobleman’s son witnesses his family betrayed. Ezio Auditore transforms grief into purpose.',
     logo: 'assests/Images/logos/Ac_2.png',
     charImage: 'assests/Images/characters_images/Ac2/Ezio-Auditore_Ac_Brotherhood.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(64, 128, 208, 0.45))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(64, 128, 208, 0.18))'
   },
   {
     id: 'brotherhood', seq: '07',
@@ -80,7 +80,7 @@ const GAMES = [
     desc: 'Ezio rebuilds the Brotherhood from its ruins to destroy Borgia Templar power in Rome.',
     logo: 'assests/Images/logos/Ac_2.png',
     charImage: 'assests/Images/characters_images/Ac2/AC_2.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(204, 48, 16, 0.45))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(204, 48, 16, 0.18))'
   },
   {
     id: 'revelations', seq: '08',
@@ -91,18 +91,18 @@ const GAMES = [
     desc: 'An aging Ezio journeys to Constantinople to unlock secrets left by Altaïr.',
     logo: 'assests/Images/logos/Ac_3.1_gold_Logo.png',
     charImage: 'assests/Images/characters_images/Ac2/Ezio-Auditore_Ac_Revelations.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(224, 96, 32, 0.4))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(224, 96, 32, 0.18))'
   },
   {
     id: 'shadows', seq: '09',
     subtitle: "ASSASSIN'S CREED", title: 'SHADOWS',
     year: '1581 CE', era: 'Feudal Japan',
-    color: 0xb03030, hex: '#b03030',
+    color: 0xd03060, hex: '#d03060',
     assassin: 'Naoe & Yasuke', location: 'Feudal Japan',
     desc: 'Feudal Japan burns in chaos. A shinobi and a legendary samurai unite to vanquish the shadows.',
     logo: 'assests/Images/logos/AC15_Aniversary.avif',
     charImage: 'assests/Images/characters_images/AC_shadows/AC_Shadows_Naoe.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(176, 48, 48, 0.45))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(208, 48, 96, 0.18))'
   },
   {
     id: 'blackflag', seq: '10',
@@ -113,29 +113,29 @@ const GAMES = [
     desc: 'Welsh pirate Edward Kenway stumbles into the Assassin-Templar war while chasing Caribbean fortune.',
     logo: 'assests/Images/logos/Ac_4_BlackFlag1.png',
     charImage: 'assests/Images/characters_images/Ac4_BlackFlag/Edward_kenway_3.png',
-    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.75)) drop-shadow(0 0 15px rgba(32, 128, 96, 0.22))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 10px rgba(32, 128, 96, 0.1))'
   },
   {
     id: 'rogue', seq: '11',
     subtitle: "ASSASSIN'S CREED", title: 'ROGUE',
     year: '1752 CE', era: "Seven Years' War",
-    color: 0x909aaa, hex: '#909aaa',
+    color: 0x6090a0, hex: '#6090a0',
     assassin: 'Shay Patrick Cormac', location: 'North Atlantic',
     desc: 'Shay Cormac turns his blade against his former Brotherhood to become the most feared Assassin hunter.',
     logo: 'assests/Images/logos/AC_5_rogue.png',
     charImage: 'assests/Images/characters_images/AC5_Rouge/assassin_s_creed_rogue_render_cut_by_outlawninja_d7uh41g-pre.png',
-    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.85)) drop-shadow(0 0 10px rgba(144, 154, 170, 0.12))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 8px rgba(96, 144, 160, 0.08))'
   },
   {
     id: 'ac3', seq: '12',
     subtitle: "ASSASSIN'S CREED", title: 'III',
     year: '1754 CE', era: 'American Revolution',
-    color: 0x3060a0, hex: '#3060a0',
+    color: 0x1c4470, hex: '#1c4470',
     assassin: 'Connor Kenway', location: 'Colonial America',
     desc: 'Connor fights to protect his people’s lands during the fires of the American Revolution.',
     logo: 'assests/Images/logos/AC_3_America.png',
     charImage: 'assests/Images/characters_images/Ac3/Assassins-Creed_3_Cornor.png',
-    glowFilter: 'drop-shadow(0 0 20px rgba(0, 0, 0, 0.75)) drop-shadow(0 0 15px rgba(48, 96, 160, 0.18))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 10px rgba(28, 68, 112, 0.1))'
   },
   {
     id: 'unity', seq: '13',
@@ -146,18 +146,18 @@ const GAMES = [
     desc: 'Paris bleeds. Arno Dorian joins the Brotherhood to uncover the true conspirators.',
     logo: 'assests/Images/logos/AC_6_gold_Logo.png',
     charImage: 'assests/Images/characters_images/Ac6_Unity/Arno.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(128, 80, 176, 0.4))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(128, 80, 176, 0.18))'
   },
   {
     id: 'syndicate', seq: '14',
     subtitle: "ASSASSIN'S CREED", title: 'SYNDICATE',
     year: '1868 CE', era: 'Victorian London',
-    color: 0xa05020, hex: '#a05020',
+    color: 0x782850, hex: '#782850',
     assassin: 'Jacob & Evie Frye', location: 'Victorian London',
     desc: 'Jacob and Evie Frye build a criminal gang to liberate London from Templar oppression.',
     logo: 'assests/Images/logos/AC_7_gold_Logo.png',
     charImage: 'assests/Images/characters_images/Ac_Syndicate/male_chrac.png',
-    glowFilter: 'drop-shadow(0 0 25px rgba(160, 80, 32, 0.4))'
+    glowFilter: 'drop-shadow(0 0 15px rgba(120, 40, 80, 0.18))'
   }
 ];
 
@@ -173,11 +173,26 @@ if (typeof THREE !== 'undefined') {
   clock = new THREE.Clock();
 }
 
+function hexToRgb(hex) {
+  const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+  const fullHex = hex.replace(shorthandRegex, (m, r, g, b) => r + r + g + g + b + b);
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(fullHex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
+
 // ── GSAP TIMELINE TRANSITIONS ────────────────────────────────────────────────
 function transitionChapter(idx) {
   if (activeChapter === idx) return;
   activeChapter = idx;
   const game = GAMES[idx];
+
+  // Update center DNA color dynamically to match active game theme
+  const rgb = hexToRgb(game.hex);
+  if (rgb) targetDnaColor = rgb;
 
   // Animate indicators and sidebar sync values
   const syncTxt = document.getElementById('hud-sync');
@@ -311,27 +326,48 @@ function setupScrollTriggers() {
 // ── DATABASE GRID BUILDER ─────────────────────────────────────────────────────
 function buildDatabaseGrid() {
   const container = document.getElementById('archive-grid');
+  const container2 = document.getElementById('archive-grid-2');
   if (!container) return;
   container.innerHTML = '';
+  if (container2) container2.innerHTML = '';
 
+  const total = GAMES.length;
   GAMES.forEach((game, i) => {
-    const card = document.createElement('div');
-    card.className = 'archive-card rounded-lg p-5 flex flex-col items-center text-center cursor-pointer';
-    card.onclick = () => openModal(i);
-
-    // Determine custom logo graphic or default fallback
+    // Custom logo graphic or default fallback
     const logoHtml = game.logo 
       ? `<img class="h-16 object-contain filter drop-shadow-[0_0_8px_rgba(255,255,255,0.1)] mb-4" src="${game.logo}" alt="Logo">`
       : `<div class="w-16 h-16 rounded-full border border-white/10 flex items-center justify-center font-cinzelDec text-cyan-400 mb-4">◈</div>`;
 
-    card.innerHTML = `
+    // 2D Grid Card
+    const card1 = document.createElement('div');
+    card1.className = 'archive-card rounded-lg p-5 flex flex-col items-center text-center cursor-pointer';
+    card1.onclick = () => openModal(i);
+    card1.innerHTML = `
       ${logoHtml}
       <span class="font-orbitron text-[9px] tracking-wider" style="color: ${game.hex}">SEQ ${game.seq}</span>
       <h3 class="font-cinzel text-lg font-bold text-white tracking-widest mt-1">${game.title}</h3>
       <p class="font-orbitron text-[9px] text-slate-500 tracking-widest mt-0.5">${game.year}</p>
       <span class="text-[10px] text-slate-400 font-mono mt-3 uppercase tracking-wider">${game.assassin}</span>
     `;
-    container.appendChild(card);
+    container.appendChild(card1);
+
+    // 3D Carousel Card
+    if (container2) {
+      const card2 = document.createElement('div');
+      card2.className = 'archive-card-3d';
+      card2.style.setProperty('--position', i + 1);
+      card2.style.setProperty('--quantity', total);
+      card2.style.setProperty('--theme-color', game.hex);
+      card2.onclick = () => openModal(i);
+      card2.innerHTML = `
+        ${logoHtml}
+        <span class="font-orbitron text-[9px] tracking-wider" style="color: ${game.hex}">SEQ ${game.seq}</span>
+        <h3 class="font-cinzel text-lg font-bold text-white tracking-widest mt-1">${game.title}</h3>
+        <p class="font-orbitron text-[9px] text-slate-500 tracking-widest mt-0.5">${game.year}</p>
+        <span class="text-[10px] text-slate-400 font-mono mt-3 uppercase tracking-wider">${game.assassin}</span>
+      `;
+      container2.appendChild(card2);
+    }
   });
 }
 
@@ -411,11 +447,250 @@ function closeModal() {
 // Make globally accessible
 window.closeModal = closeModal;
 
+// ── INTERACTIVE 3D DNA HELIX & CARD CONNECTION CANVAS ────────────────────────
+let dnaColor = { r: 0, g: 240, b: 255 }; // Current color
+let targetDnaColor = { r: 0, g: 240, b: 255 };
+let dnaSpeed = 0.02;
+let targetDnaSpeed = 0.02;
+let rotationAngle = 0;
+let mouseX = 0, mouseY = 0;
+
+let stageRotation = 0; // Stage rotation angle (Y-axis) in radians
+let isSliderHovered = false;
+let hoveredCardIndex = -1;
+
+function setupInteractiveDNA() {
+  const canvas = document.getElementById('dna-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const wrapper = canvas.parentElement;
+  const slider = document.getElementById('archive-grid-2');
+  
+  // Track client dimensions dynamically
+  function resizeCanvas() {
+    canvas.width = wrapper.clientWidth;
+    canvas.height = wrapper.clientHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+  
+  // Track slider mouse states to pause rotation
+  if (slider) {
+    slider.addEventListener('mouseenter', () => { isSliderHovered = true; });
+    slider.addEventListener('mouseleave', () => { 
+      isSliderHovered = false; 
+      hoveredCardIndex = -1;
+    });
+  }
+
+  // Hover tilt interaction on center core area
+  const coreGlow = document.querySelector('.animus-core-hologram');
+  if (coreGlow) {
+    coreGlow.addEventListener('mousemove', (e) => {
+      const rect = coreGlow.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+      targetDnaSpeed = 0.05;
+      mouseX = x * 0.005;
+      mouseY = y * 0.005;
+    });
+    coreGlow.addEventListener('mouseleave', () => {
+      targetDnaSpeed = 0.02;
+      mouseX = 0;
+      mouseY = 0;
+    });
+  }
+
+  // Monitor card hover enter/leave dynamically to update colors and highlighted line
+  const cards3d = document.querySelectorAll('.archive-card-3d');
+  cards3d.forEach((card, index) => {
+    card.addEventListener('mouseenter', () => {
+      hoveredCardIndex = index;
+      const themeColor = card.style.getPropertyValue('--theme-color') || '#00f0ff';
+      const rgb = hexToRgb(themeColor);
+      if (rgb) targetDnaColor = rgb;
+    });
+
+    card.addEventListener('mouseleave', () => {
+      hoveredCardIndex = -1;
+      // Revert back to active sequence color
+      if (activeChapter >= 0 && GAMES[activeChapter]) {
+        const rgb = hexToRgb(GAMES[activeChapter].hex);
+        if (rgb) targetDnaColor = rgb;
+      } else {
+        targetDnaColor = { r: 0, g: 240, b: 255 };
+      }
+    });
+  });
+
+  // DNA configuration parameters (Enlarged)
+  const numNodes = 20;
+  const radius = 52;
+  const nodeHeight = 10;
+  const totalCards = GAMES.length;
+  const cardRadius = 480; // Radial distance from center to cards on tilted floor
+  const tiltAngle = 72 * Math.PI / 180; // 72 degree tilt in radians
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // Smooth color blending
+    dnaColor.r += (targetDnaColor.r - dnaColor.r) * 0.1;
+    dnaColor.g += (targetDnaColor.g - dnaColor.g) * 0.1;
+    dnaColor.b += (targetDnaColor.b - dnaColor.b) * 0.1;
+
+    // Smooth speed interpolation
+    dnaSpeed += (targetDnaSpeed - dnaSpeed) * 0.05;
+    rotationAngle += dnaSpeed;
+
+    // Rotate 3D stage in JS (clockwise rotation)
+    if (!isSliderHovered) {
+      stageRotation -= 0.0022; 
+    }
+    if (slider) {
+      slider.style.transform = `rotateX(72deg) rotateY(${stageRotation * (180 / Math.PI)}deg)`;
+    }
+
+    const rotY = rotationAngle + mouseX;
+    const rotX = 0.45 + mouseY; 
+
+    const center = { x: canvas.width / 2, y: canvas.height / 2 };
+    const nodes = [];
+
+    // Calculate 3D coordinates for DNA Double Helix
+    for (let i = 0; i < numNodes; i++) {
+      const theta = i * 0.38 + rotY;
+      const yVal = (i - numNodes / 2) * nodeHeight;
+
+      // Unrotated strand offsets
+      const x1 = radius * Math.cos(theta);
+      const z1 = radius * Math.sin(theta);
+      const x2 = radius * Math.cos(theta + Math.PI);
+      const z2 = radius * Math.sin(theta + Math.PI);
+
+      // Rotate around tilted X-axis
+      const ry1 = yVal * Math.cos(rotX) - z1 * Math.sin(rotX);
+      const rz1 = yVal * Math.sin(rotX) + z1 * Math.cos(rotX);
+      const ry2 = yVal * Math.cos(rotX) - z2 * Math.sin(rotX);
+      const rz2 = yVal * Math.sin(rotX) + z2 * Math.cos(rotX);
+
+      nodes.push({
+        id: i,
+        x1: x1 * Math.cos(rotY) - z1 * Math.sin(rotY),
+        y1: ry1,
+        z1: rz1,
+        x2: x2 * Math.cos(rotY) - z2 * Math.sin(rotY),
+        y2: ry2,
+        z2: rz2
+      });
+    }
+
+    // ── DRAW CARD CONNECTION LINES FIRST (Under DNA) ─────────────────────────
+    for (let i = 0; i < totalCards; i++) {
+      const game = GAMES[i];
+      // Compute the card's current angle in 3D orbit (factoring in the Y-axis stageRotation)
+      const angle = (i * (2 * Math.PI / totalCards)) + stageRotation;
+      
+      // Card coordinates on the X-Z turntable plane
+      const cardX = cardRadius * Math.sin(angle);
+      const cardZ = cardRadius * Math.cos(angle);
+      
+      // Project the 3D position onto the tilted screen coordinates
+      const cx = center.x + cardX;
+      const cy = center.y - cardZ * Math.sin(tiltAngle);
+
+      // Connect all cards to the single central point of the DNA Helix
+      const dx = center.x;
+      const dy = center.y;
+
+      ctx.beginPath();
+      ctx.moveTo(dx, dy);
+      ctx.lineTo(cx, cy);
+
+      const isActive = (hoveredCardIndex === i);
+      if (isActive) {
+        // Highlighted dotted connection
+        ctx.setLineDash([3, 7]);
+        ctx.strokeStyle = game.hex;
+        ctx.lineWidth = 2.2;
+        ctx.shadowBlur = 15;
+        ctx.shadowColor = game.hex;
+        ctx.stroke();
+        ctx.shadowBlur = 0; // reset shadow
+
+        // Drawing a flowing scanner pulse along the connection line
+        const pulseProgress = (Date.now() % 1000) / 1000;
+        const px = dx + (cx - dx) * pulseProgress;
+        const py = dy + (cy - dy) * pulseProgress;
+        
+        ctx.beginPath();
+        ctx.arc(px, py, 4, 0, Math.PI * 2);
+        ctx.fillStyle = '#ffffff';
+        ctx.shadowBlur = 10;
+        ctx.shadowColor = game.hex;
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      } else {
+        // Idle faint dashed sci-fi connection
+        ctx.setLineDash([3, 7]);
+        ctx.strokeStyle = `rgba(${hexToRgb(game.hex).r}, ${hexToRgb(game.hex).g}, ${hexToRgb(game.hex).b}, 0.12)`;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+    }
+    ctx.setLineDash([]); // Reset line dash state
+
+    // ── DRAW DNA HELIX (Depth-Sorted) ────────────────────────────────────────
+    // Sort DNA nodes by depth (average Z values)
+    nodes.sort((a, b) => ((a.z1 + a.z2) / 2) - ((b.z1 + b.z2) / 2));
+
+    nodes.forEach(node => {
+      const colorStr = `rgba(${Math.round(dnaColor.r)}, ${Math.round(dnaColor.g)}, ${Math.round(dnaColor.b)}, `;
+      
+      const scale1 = (node.z1 + 100) / 130;
+      const scale2 = (node.z2 + 100) / 130;
+      const alpha1 = Math.max(0.2, Math.min(1, scale1));
+      const alpha2 = Math.max(0.2, Math.min(1, scale2));
+
+      // 1. Draw rung connection
+      ctx.beginPath();
+      ctx.moveTo(center.x + node.x1, center.y + node.y1);
+      ctx.lineTo(center.x + node.x2, center.y + node.y2);
+      ctx.strokeStyle = colorStr + '0.25)';
+      ctx.lineWidth = 1.8;
+      ctx.stroke();
+
+      // 2. Draw strand endpoint 1
+      const size1 = Math.max(2, 4.5 * scale1);
+      ctx.beginPath();
+      ctx.arc(center.x + node.x1, center.y + node.y1, size1, 0, Math.PI * 2);
+      ctx.fillStyle = colorStr + alpha1 + ')';
+      ctx.shadowBlur = 10;
+      ctx.shadowColor = `rgb(${dnaColor.r}, ${dnaColor.g}, ${dnaColor.b})`;
+      ctx.fill();
+
+      // 3. Draw strand endpoint 2
+      const size2 = Math.max(2, 4.5 * scale2);
+      ctx.beginPath();
+      ctx.arc(center.x + node.x2, center.y + node.y2, size2, 0, Math.PI * 2);
+      ctx.fillStyle = colorStr + alpha2 + ')';
+      ctx.fill();
+      
+      ctx.shadowBlur = 0; // reset
+    });
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+}
+
 // ── WINDOW ENTRY ──────────────────────────────────────────────────────────────
 function init() {
   buildTimelineControls();
   buildDatabaseGrid();
   setupScrollTriggers();
+  setupInteractiveDNA();
   
   // Initialize first slide values
   transitionChapter(0);
