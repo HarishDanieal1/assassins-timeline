@@ -530,6 +530,7 @@ function setupInteractiveDNA() {
   const totalCards = GAMES.length;
   const cardRadius = 480; // Radial distance from center to cards on tilted floor
   const tiltAngle = 72 * Math.PI / 180; // 72 degree tilt in radians
+  const particles = []; // Floating particles for Black Flag constellation network
 
   function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -556,6 +557,66 @@ function setupInteractiveDNA() {
 
     const center = { x: canvas.width / 2, y: canvas.height / 2 };
     const nodes = [];
+
+    // ── ANIMUS PARTICLE CONSTELLATION NETWORK (Black Flag style) ─────────────────
+    // Emit floating cybernetic sparks
+    if (particles.length < 50 && Math.random() < 0.3) {
+      particles.push({
+        x: center.x + (Math.random() - 0.5) * 160,
+        y: center.y + (Math.random() - 0.5) * 320,
+        vx: (Math.random() - 0.5) * 0.8,
+        vy: -0.5 - Math.random() * 1.2, // Drifting upwards
+        alpha: 0,
+        life: 0,
+        decaySpeed: 0.004 + Math.random() * 0.006,
+        size: 1 + Math.random() * 2.2
+      });
+    }
+
+    // Update positions & lifespan
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.life += p.decaySpeed;
+      if (p.life >= 1.0) {
+        particles.splice(i, 1);
+        continue;
+      }
+      p.alpha = Math.sin(p.life * Math.PI); // Fade in and out
+    }
+
+    // Draw connection lines between nearby particles
+    const maxDist = 70;
+    ctx.lineWidth = 0.7;
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const p1 = particles[i];
+        const p2 = particles[j];
+        const dx = p1.x - p2.x;
+        const dy = p1.y - p2.y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < maxDist) {
+          const lineAlpha = (1 - dist / maxDist) * 0.15 * Math.min(p1.alpha, p2.alpha);
+          ctx.beginPath();
+          ctx.moveTo(p1.x, p1.y);
+          ctx.lineTo(p2.x, p2.y);
+          ctx.strokeStyle = `rgba(${Math.round(dnaColor.r)}, ${Math.round(dnaColor.g)}, ${Math.round(dnaColor.b)}, ${lineAlpha})`;
+          ctx.stroke();
+        }
+      }
+    }
+
+    // Draw individual particle nodes
+    particles.forEach(p => {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(${Math.round(dnaColor.r)}, ${Math.round(dnaColor.g)}, ${Math.round(dnaColor.b)}, ${p.alpha * 0.7})`;
+      ctx.shadowBlur = 4;
+      ctx.shadowColor = `rgb(${Math.round(dnaColor.r)}, ${Math.round(dnaColor.g)}, ${Math.round(dnaColor.b)})`;
+      ctx.fill();
+    });
+    ctx.shadowBlur = 0; // reset shadowBlur
 
     // Calculate 3D coordinates for DNA Double Helix
     for (let i = 0; i < numNodes; i++) {
